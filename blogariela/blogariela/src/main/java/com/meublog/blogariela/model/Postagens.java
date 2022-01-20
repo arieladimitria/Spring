@@ -22,7 +22,7 @@ public class Postagens {
 	
 	
 	@NotNull
-	@Size(min = 10, max = 1000, message = "O atributo titulo deve ter no mínimo 5 e no máximo 50 caracteres!")
+	@Size(min = 5, max = 50, message = "O atributo titulo deve ter no mínimo 5 e no máximo 50 caracteres!")
 	private String titulo; 
 	
 	
